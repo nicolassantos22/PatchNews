@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f2f2f2;
+   }
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.foto {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.texto{
+   
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    padding: 20px;
+} 
+
+
+
+.logo {
+    width: 188px;
+    height: 166px;
+    margin-left: 90%;
+}
+
+.rodape{
+    width: 100%;
+    height: 79px;
+    background-color: #BF895A;
+}
+
+
+.mario {
+    width: 149px;
+    height: 150px;
+    float:right;
+    background: url('../images/mario.png');
+    transform: rotate(7.21deg);
+} 
+
+
+
+footer {
+    text-align: center;
+}
+
+.logo-rodape{
+    width: 149px;
+    height: 103px;
+}
+
+#jinx { 
+    width: 100%;
+}
+
+.programadores {
+    width: 100%;
+}
+
+
+@media (min-width: 768px) { 
+    main {
+        flex-grow: 1;
+        flex-direction: row;
+    }
+
+
+    
+    #jinx { 
+       width: 50vw;
+    }
+    
+    .programadores {
+       width:  50vw;
+    }
+    .feito{ 
+        margin-top: 300px; 
+    }
+}
